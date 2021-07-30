@@ -3,7 +3,7 @@
 import telebot
 import os
 import random
-#1098901167:AAFJXAvzjLQWUgrw6Yb8kKJz-YyV4S3u1m0;-512432540
+#1098901167:AAFJXAvzjLQWUgrw6Yb8kKJz-YyV4S3u1m0;-512432540;-331657197
 
 
 
@@ -83,7 +83,7 @@ bot = telebot.TeleBot(chaves[0])
 txt_price = ""
 
 
-
+frasessss=frases[random.randint(0,len(frases)-1)]
 bot = telebot.TeleBot(chaves[0])
 for i in chaves[1:]:
-	bot.send_message(i, text="Frase Aleatória.\n\n"+frases[random.randint(0,len(frases)-1)])
+	bot.send_message(i, text="Frase Aleatória.\n\n"+frasessss)
