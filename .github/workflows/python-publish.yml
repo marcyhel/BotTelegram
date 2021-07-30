@@ -28,7 +28,7 @@ jobs:
 
       - name: Random sleep
         if: github.event_name == 'schedule'
-        run: sleep $(shuf -i 0-1 -n 1)
+        run: sleep $(shuf -i 0-0 -n 1)
 
       - name: Install dependencies
         run: |
